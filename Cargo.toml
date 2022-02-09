@@ -3,5 +3,8 @@ name = "collatz"
 version = "0.1.0"
 edition = "2021"
 description = "Calculate the length of the Collatz sequence for a given number"
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/ellygaytor/collatz"
+repository = "https://github.com/ellygaytor/collatz"
 
 [dependencies]
