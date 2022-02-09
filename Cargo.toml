@@ -1,5 +1,5 @@
 [package]
-name = "collatz"
+name = "collatz_length"
 version = "0.1.0"
 edition = "2021"
 description = "Calculate the length of the Collatz sequence for a given number"
