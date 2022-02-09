@@ -1,8 +1,8 @@
-    /// Returns the length of the Collatz sequence for the given number.
-    /// The Collatz sequence is defined as:
-    ///    n -> n/2 (if n is even)
-    ///    n -> 3n + 1 (if n is odd)
-    ///    The sequence ends when the number is 1.
+/// Returns the length of the Collatz sequence for the given number.
+/// The Collatz sequence is defined as:
+///    n -> n/2 (if n is even)
+///    n -> 3n + 1 (if n is odd)
+///    The sequence ends when the number is 1.
 pub fn collatz(n: u64) -> u64 {
     let mut i = n;
     let mut count = 0;
