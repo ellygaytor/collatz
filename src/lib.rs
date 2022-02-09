@@ -4,8 +4,7 @@ pub fn collatz(n: u64) -> u64 {
     while i != 1 {
         if i % 2 == 0 {
             i /= 2;
-        }
-        else {
+        } else {
             i = i * 3 + 1;
         }
         count += 1;
